@@ -1,0 +1,11 @@
+{
+    "opros": {
+        "questions": {
+            "q1": "How well did you understand the bot?",
+            "q2": "Write your questions that arise during the use of the bot",
+            "q3": "What are your plans for using the bot?",
+            "q4": "Additional questions / suggestion"
+        },
+        "done": "Thanks! Your answers have been saved!"
+    }
+}

@@ -1,0 +1,89 @@
+hello: |
+  * # Welcome! ${user.first_name} *
+  This bot is provided by * Elaboration.Asia * companies to check what the bot is capable of in a telegram
+  and what you can think of using this technology. This bot can use both * for educational purposes * and * in business *!
+
+  * For educational purposes, you can: * _ (provided an example, you can think of other tasks that the bot will perform) _
+    - Notification that he will have a lesson soon
+    - Notification of what will be the next lesson
+    - View a list of students and what class it is in
+    - Payment via bot with a credit card
+    - and much more
+
+  * (!) If you have questions: * then send the /help command to the bot (or click)
+  If it doesn’t help, you can contact: @FukaChanYT
+
+menu: [
+  [🙋🏻 My Information, 👩🏻‍💻 About companies],
+  [📝 Take the survey, ⁉️ Questions and answers],
+  [⚙️ Customization]
+]
+
+menu-cancel: Cancel
+manu-cancel-text: This poll has been canceled!
+
+menu-back: Back
+
+whoami: |
+  # My details:
+  my identifier telegram: ${user.id}
+  name: ${user.first_name}
+  ${user.username ? 'user: @' + user.username : ''}
+  my url: ${user.username ? 'https://t.me/' + user.username : 'you do not have a user (to get: https://telegramm.net/telegramm/kak-v-telegramm/608-kak-zapolnit-username-v-telegramme.html)'}
+
+about: |
+  # Information Company
+  
+  📢 Educational Center Elaboration.asia
+
+  Invites school-age children to continuing education courses in the field of new information technologies.
+  In an accessible and playful way, we will teach your child programming.
+
+  Your child’s smartphone will no longer be just a toy,
+  and will turn into an instrument of creative expression and intellectual development.
+
+FAQ: |
+  Initially, a "bot" (short for "robot") is a program that automatically,
+  on a command or a given schedule performs different actions. Simply put, a program to commit
+  routine operations. And he does it through the same interfaces as a regular user,
+  as if imitating a real user.
+
+  * Why is a bot better than a "real user"? *
+  A bot does a tedious job, not only saves man’s time and energy,
+  but does the job at higher speeds.
+
+  Bots have better reaction and accuracy compared to humans - this is used in computer games,
+  online auctions, advertising, electronic stock trading and so on. Bots are used to simulate
+  human activities, in particular in chat rooms. These are the so-called chat bots.
+
+  Chatbots can be configured to provide adequate answers in human language.
+  Of course, provided that he recognizes and supports this kind of team.
+
+  * Well, what are they doing on Telegram? *
+  Telegram bots are a type of chatbot. According to the rules, all their names must end with the word "bot".
+  At its core, these are the same user accounts that are controlled by programs instead of people.
+
+  They help to carry out different actions: translate and comment, train and test,
+  seek and find, ask and answer, play and entertain, broadcast and aggregate,
+  integrate into other services and platforms, interact with sensors and things connected to the Internet.
+  Telegram bots can be “Add To Group”, or “Share” them.
+  And this is far from all the opportunities presented by the platform for their creation.
+
+  [Read more on the website](http://mediatoolbox.ru/blog/botyi-telegram-vsyo-chto-vyi-hoteli-pro-nih-sprosit/)
+
+settings: |
+  Bot interface settings!
+  In order to configure, select what you want to change
+
+settings-menu: [
+  [🇺🇸 Change language],
+  [🔙 Back]
+]
+
+edit-lang-text: Choose language
+edit-lang-menu: [
+  [🇷🇺 Русский язык],
+  [🇰🇿 Қазақ тілі],
+  [🇺🇸 English language]
+]
+edit-lang-done: Interface language changed successfully
